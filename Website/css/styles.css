@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77c4d3 3px solid;
+  }
+  
+  header .logo {
+    float: left;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 5px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  
+  header nav ul li a:hover {
+    background: #77c4d3;
+    color: #fff;
+  }
+  
+  header .cta {
+    margin-left: 20px;
+    background: #77c4d3;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  header .cta:hover {
+    background: #65a1a8;
+  }
+  
+  .hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .hero .btn {
+    background: #77c4d3;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background: #65a1a8;
+  }
+  
+  .intro {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .intro .btn {
+    background: #77c4d3;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .intro .btn:hover {
+    background: #65a1a8;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .social a {
+    color: #77c4d3;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer .newsletter {
+    margin: 20px 0;
+  }
+  
+  footer .newsletter form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  footer .newsletter button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #77c4d3;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  footer .newsletter button:hover {
+    background: #65a1a8;
+  }
+  
